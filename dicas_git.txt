@@ -8,3 +8,7 @@
 8 - git checkout nome_do_ramo - vai pular para o ramo criado
 9 - git merge nome_do_ramo - vai integrar o ramo no master
 10 - git branch -D nome_do_ramo - vai deletar o ramo
+---------------------------------------------------------------REMOTO GIT HUB---------------------------------------------
+11 - git remote add origin link_git_hub (origin é o nome para o ponto remoto)
+12 - git push origin master - envia para o repositório remoto a branch master
+13 - git remote -v - lista as url's
