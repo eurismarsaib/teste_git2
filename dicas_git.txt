@@ -4,3 +4,7 @@
 4 - git log - ver o histório
 5 - git checkout a3232323  - volar os dados a um determinado ponto
 6 - git checkout master - voltar a última alteração
+7 - git branch nome_do_ramo - criar um ramo
+8 - git checkout nome_do_ramo - vai pular para o ramo criado
+9 - git merge nome_do_ramo - vai integrar o ramo no master
+10 - git branch -D nome_do_ramo - vai deletar o ramo
