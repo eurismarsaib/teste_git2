@@ -1,0 +1,5 @@
+1 - git init - criar um repositório
+2 - git status - ver as alterações
+3 - git log - ver o histório
+4 - git checkout a3232323  - volar os dados a um determinado ponto
+5 - git checkout master - voltar a última alteração
