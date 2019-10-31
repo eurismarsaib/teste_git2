@@ -8,7 +8,11 @@
 8 - git checkout nome_do_ramo - vai pular para o ramo criado
 9 - git merge nome_do_ramo - vai integrar o ramo no master
 10 - git branch -D nome_do_ramo - vai deletar o ramo
+11 - git reflog - mostra todos os commits mesmo os desanexados ### https://git.seveas.net/recovering-from-a-detached-head.html
+12 - git commit --amend - este comando tem por função alterar o último commit feito.
 ---------------------------------------------------------------REMOTO GIT HUB---------------------------------------------
-11 - git remote add origin link_git_hub (origin é o nome para o ponto remoto)
-12 - git push origin master - envia para o repositório remoto a branch master
-13 - git remote -v - lista as url's
+13 - git remote add origin https://github.com/eurismarsaib/teste_git.git (origin é o nome para o ponto remoto)
+14 - git push origin master - envia para o repositório remoto a branch master
+15 - git remote -v - lista as url's
+16 - git clone https://github.com/eurismarsaib/teste_git.git pasta - clona o repositorio remoto para a pasta
+17 - git pull origin master - puxa as alterações remotas do origin para minha master local
