@@ -10,9 +10,16 @@
 10 - git branch -D nome_do_ramo - vai deletar o ramo
 11 - git reflog - mostra todos os commits mesmo os desanexados ### https://git.seveas.net/recovering-from-a-detached-head.html
 12 - git commit --amend - este comando tem por função alterar o último commit feito.
+13 - git checkout -b nomedobranch <sha1 do primeiro commit> # Cria novo branch apontando para o primeiro commit
+14 - git reset - remove arquivo do stage (depois do add )
+15 - git init --bare #compartilhamento offline (cria um repositorio offline como se fosse remoto)
+     git remote add usb E:\meu-projeto
+16 - git rm -r --cached obj\Debug - remove os arquivos depois de estar commitados	
+17 - git rm -r --cached . && git add . && git commit -m ".gitignore fix" - Removendo arquivos rastreados no seu repositório git baseado no .gitignore 
+		https://medium.com/@chroda/removendo-arquivos-rastreados-no-seu-reposit%C3%B3rio-git-baseado-no-gitignore-844ce2d6dc56
 ---------------------------------------------------------------REMOTO GIT HUB---------------------------------------------
-13 - git remote add origin https://github.com/eurismarsaib/teste_git.git (origin é o nome para o ponto remoto)
-14 - git push origin master - envia para o repositório remoto a branch master
-15 - git remote -v - lista as url's
-16 - git clone https://github.com/eurismarsaib/teste_git.git pasta - clona o repositorio remoto para a pasta
-17 - git pull origin master - puxa as alterações remotas do origin para minha master local
+1 - git remote add origin https://github.com/eurismarsaib/teste_git.git (origin é o nome para o ponto remoto)
+2 - git push origin master - envia para o repositório remoto a branch master
+3 - git remote -v - lista as url's
+4 - git clone https://github.com/eurismarsaib/teste_git.git pasta - clona o repositorio remoto para a pasta
+5 - git pull origin master - puxa as alterações remotas do origin para minha master local
